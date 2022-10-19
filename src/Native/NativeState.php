@@ -291,7 +291,7 @@ class NativeState {
 	 */
 	public function write($file, string $data, string $path, ?int $length = null): int {
 		/** @var int $result */
-		$result = @smbclient_write($this->state, $file, $data, $length);
+		$result = @smbclient_write($this->state, $file, $data);
 
 		$this->testResult($result, $path);
 		return $result;

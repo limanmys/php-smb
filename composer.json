@@ -1,5 +1,5 @@
 {
-  "name": "icewind/smb",
+  "name": "limanmys/php-smb",
   "description": "php wrapper for smbclient and libsmbclient-php",
   "license": "MIT",
   "authors": [
@@ -9,7 +9,7 @@
     }
   ],
   "require": {
-    "php": ">=7.2",
+    "php": ">=8.1",
     "icewind/streams": ">=0.7.3"
   },
   "require-dev": {
